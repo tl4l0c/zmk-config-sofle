@@ -79,15 +79,15 @@
      // │             │             │             │             │             │             │                                 │             │             │             │             │             │             │
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤                                 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      // │             │             │             │             │             │             │                                 │             │             │             │             │             │             │
-            &kp GRAVE   &kp RG(GRAVE) &kp RG(BSPC)   &kp RG(ESC) &kp RG(TAB)   &kp RG(SQT)                                     &kp RG(COMMA)  &kp RG(EXCL)   &kp RG(AT)   &kp RG(HASH)   &kp RG(DLLR)      &kp F12
+            &kp GRAVE   &kp RG(FSLH)    &kp RG(B)   &kp RG(I)     &kp RG(DOT)   &kp RG(SEMI)                                       &kp N6       &kp N7          &kp N8       &kp N9         &kp N0      &kp F12
      // │             │             │             │             │             │             │                                 │             │             │             │             │             │             │
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤                                 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      // │             │             │             │             │             │             │                                 │             │             │             │             │             │             │
-            &kp GRAVE   &kp RG(PRCNT) &kp RG(CARET) &kp RG(AMPS) &kp RG(KP_MULTIPLY) &kp RG(LPAR)                               &kp RG(RPAR)  &kp RG(PIPE) &kp RG(EQUAL) &kp RG(MINUS)  &kp RG(KP_PLUS)      &kp F12
+            &trans      &kp EXCL        &kp AT      &kp HASH        &kp DLLR    &kp PRCNT                                       &kp CARET       &kp AMPS    &kp KP_MULTIPLY &kp LPAR    &kp RPAR        &kp PIPE
      // │             │             │             │             │             │             │                                 │             │             │             │             │             │             │
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤─────────────╮     ╭─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      // │             │             │             │             │             │             │             │     │             │             │             │             │             │             │             │
-            &kp GRAVE  &kp RG(LBRC)  &kp RG(RBRC)   &kp RG(LBKT)  &kp RG(RBKT) &kp RG(SEMI)       &trans              &trans   &kp RG(COLON)  &kp RG(BSLH)   &kp RG(Y)       &kp RG(Z)   &kp RG(Q)      &kp F12
+            &trans      &kp EQUAL       &kp MINUS   &kp KP_PLUS     &kp LBRC    &kp RBRC        &trans              &trans      &kp LBKT        &kp RBKT    &kp SEMI        &kp COLON   &kp BSLH        &trans
      // │             │             │             │             │             │             │             │     │             │             │             │             │             │             │             │
      // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤─────────────┤     ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
      //                             │             │             │             │             │             │     │             │             │             │             │             │
@@ -99,6 +99,10 @@
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
+
+
+
+
 
         raise_layer {
 // ------------------------------------------------------------------------------------------------------------
